@@ -1,0 +1,65 @@
+/* body {
+    background-image: url(https://placekitten.com/1920/1080);
+} */
+h1 {
+    background-color: #4e8b47;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    font: bold;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(63, 63, 63);
+}
+h2 {
+    background-color: #4435ce;
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(223, 238, 238);
+
+}
+hr {
+    background-color: rgb(63, 63, 63);
+}
+select {
+    background: #4e8b47;
+    color: rgb(63, 63, 63);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+button {
+    background: #4e8b47;
+    color: rgb(63, 63, 63);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#facts{
+    display: flex;
+    justify-content: center;
+}
+
+#cat_fact {
+    background-color: #4435ce;
+    color: rgb(223, 238, 238);
+    width: fit-content;
+    height: fit-content;
+    padding: 2.25em;
+    margin-top: .5em;
+}
+
+.numFact {
+    font-family:'Josefin Sans', sans-serif ;
+}

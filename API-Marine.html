@@ -1,0 +1,32 @@
+<!-- Name: Olivia Marine 
+    Date: May 5, 2023-->
+<!-- Description: This is a project I did using a free API source I found and used it to provide people
+     with interesting and fun facts about cats. The website is user-friendly and easy to use due to the large text and interactive elements.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="API-Marine.js"></script>
+    <link rel="stylesheet" href="API-Marine.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cat Facts!</h1>
+    <hr>
+    <h2>Choose a Number of Cat Facts:</h2>
+    <div>
+    <select>
+      <option value="1">1 Cat Fact</option>
+      <option value="3" selected>3 Cat Facts</option>
+      <option value="5">5 Cat Facts</option>
+    </select>
+</div>
+    <h2 id="clickButton">Click the button below to get a cat fact!</h2>
+    <div>
+    <button id="get_facts">Click me!</button>
+    </div>
+    <div id="facts">
+    <ol id="cat_fact"></ol>
+    </div>
+</body>
+</html>
